@@ -14,8 +14,6 @@ class getUIElements {
     fetch("https://andruxnet-random-famous-quotes.p.rapidapi.com/?cat=famous", {
       "method": "GET",
       "headers": {
-        "x-rapidapi-key": "da218c5424mshceb3831c457b02bp13f634jsn3accf1324c16",
-        "x-rapidapi-host": "andruxnet-random-famous-quotes.p.rapidapi.com"
       }
     })
       .then(res => res.json())
